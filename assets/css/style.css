@@ -244,6 +244,9 @@ img {
 }
 
 .skills__ux {
+  width: 50%;
+}
+.skills__java {
   width: 65%;
 }
 

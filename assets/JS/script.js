@@ -66,7 +66,7 @@ const randomizeText = () => {
   const animation = compStyles.getPropertyValue('animation');
   const animationTime = parseFloat(animation.match(/\d*[.]?\d+/)) * 1000;
   
-  const phrases = ['Web designig', 'cloud','web development'];
+  const phrases = ['Web designig', 'web development'];
   
   i = randomNum(i, phrases.length);
   const newPhrase = phrases[i];
